@@ -54,6 +54,19 @@ Sleep 50
 FileRecycle, C:\Users\mkstud1\Desktop\*.xlsx
 return
 
+^!1::
+; adds a SchueCal user profile from usb which has rates, glass defaults, prices, etc. 
+; the above is cntrl alt 1
+FileRemoveDir, C:\ProgramData\Schueco\SchueCal\User\Local,1
+Sleep 1000
+FileCopyDir, E:\Work\SchueCal\User configuration profiles\mypc\Local, C:\ProgramData\Schueco\SchueCal\User\Local1,1
+Sleep 500
+FileRecycle C:\ProgramData\Schueco\SchueCal\Workbench_G3.xml
+Sleep 1000
+FileCopy, E:\Work\SchueCal\User configuration profiles\mypc\Workbench_G3.xml, C:\ProgramData\Schueco\SchueCal\Workbench_G3.xml
+msgbox Finished
+return
+
 ^!0::
 ;create stud1
 FileCopy, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD124567.ahk, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD1.ahk
