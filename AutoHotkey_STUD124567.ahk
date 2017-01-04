@@ -156,7 +156,46 @@ stringreplace, newtext, thetext, 1.xlsx,7.xlsx,All
 sleep 50
 filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD7.ahk
 FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD7.ahk
-;send ^!w
+send ^!w
+return
+
+^!w::
+;create stud3
+fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD124567.ahk
+stringreplace, newtext, thetext, mkstud1,mkstud3.SCHUECO, All
+sleep 50
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD3.ahk
+sleep 50
+send ^!e
+return
+
+^!e::
+;change feedback file name
+fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD3.ahk
+stringreplace, newtext, thetext, 1.xlsx,3.xlsx,All
+sleep 50
+filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD3.ahk
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD3.ahk
+send ^!r
+return
+
+^!r::
+;create stud8
+fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD124567.ahk
+stringreplace, newtext, thetext, mkstud1,mkstud8.SCHUECO, All
+sleep 50
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD8.ahk
+sleep 50
+send ^!t
+return
+
+^!t::
+;change feedback file name
+fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD8.ahk
+stringreplace, newtext, thetext, 1.xlsx,8.xlsx,All
+sleep 50
+filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD8.ahk
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD8.ahk
 return
 
 ~LButton & L::
