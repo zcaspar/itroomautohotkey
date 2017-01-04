@@ -156,6 +156,18 @@ stringreplace, newtext, thetext, 1.xlsx,8.xlsx,All
 sleep 50
 filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD8.ahk
 FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD8.ahk
+;create FRONT
+fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD124567.ahk
+stringreplace, newtext, thetext, mkstud1,Training, All
+sleep 50
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_FRONT.ahk
+sleep 50
+;change feedback file name
+fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_FRONT.ahk
+stringreplace, newtext, thetext, 1.xlsx,FRONT.xlsx,All
+sleep 50
+filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_FRONT.ahk
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_FRONT.ahk
 return
 
 ~LButton & L::
