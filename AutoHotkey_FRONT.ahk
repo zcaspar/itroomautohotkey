@@ -20,6 +20,7 @@
 ;return
 
 ^!1::
+; adds a SchueCal user profile from usb which has rates, glass defaults, prices, etc. 
 ; the above is cntrl alt 1
 FileRemoveDir, C:\ProgramData\Schueco\SchueCal\User\Local,1
 Sleep 1000
