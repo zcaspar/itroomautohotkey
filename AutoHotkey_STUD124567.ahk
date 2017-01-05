@@ -52,6 +52,7 @@ Sleep 50
 FileRecycle, C:\Users\mkstud1\Desktop\*.xls
 Sleep 50
 FileRecycle, C:\Users\mkstud1\Desktop\*.xlsx
+msgbox Finished
 return
 
 ^!1::
