@@ -169,6 +169,7 @@ stringreplace, newtext, thetext, 1.xlsx,FRONT.xlsx,All
 sleep 50
 filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_FRONT.ahk
 FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_FRONT.ahk
+msgbox Finished generating files
 return
 
 ~LButton & L::
