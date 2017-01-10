@@ -5,4 +5,4 @@ RUN AutoHotkey_STUD124567.ahk
 	and clean the desktop
 	
 Requests:
-	^!l could (at the end) create latest autohotkey script
+	^!l could copy latest autohotkey script into SchueCal Training folder
