@@ -18,12 +18,10 @@
 
 ^!l::
 ; the above is cntrl alt l
-; first copy feedback to dummy 3
 ;The below line won’t be correct on individual computers, only on FRONT, which is the only place it should be used
-if FileExist("C:\Users\mkstud1\Desktop\desktop\AutoHotkey_STUD1.ahk")
-    MsgBox, You are Student 1
-    FileRecycle, C:\Users\mkstud1\Desktop\desktop\AutoHotkey_STUD1.ahk
-    FileCopy, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD1.ahk, C:\Users\mkstud1\Desktop\desktop\AutoHotkey_STUD1.ahk
+if FileExist("C:\Users\mkstud1\Desktop\desktop\AutoHotkey_mkstud1.ahk")
+    FileRecycle, C:\Users\mkstud1\Desktop\desktop\AutoHotkey_mkstud1.ahk
+    FileCopy, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud1.ahk, C:\Users\mkstud1\Desktop\desktop\AutoHotkey_mkstud1.ahk
 FileCopy, C:\Users\mkstud1\Desktop\schuecal Training\feedback.xlsx, E:\1.xlsx
 Sleep 100
 ;CHANGE PER COMP

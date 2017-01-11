@@ -5,5 +5,4 @@ RUN AutoHotkey_STUD124567.ahk
 	and clean the desktop
 	
 Requests:
-	^!l could copy latest autohotkey script into SchueCal Training folder
 	Change student 3 to f drive or do an ifexist
