@@ -72,93 +72,93 @@ return
 
 ^!0::
 ;create stud1
-FileCopy, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD124567.ahk, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD1.ahk
+FileCopy, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD124567.ahk, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud1.ahk
 Sleep 50
 ;create stud2
 fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD124567.ahk
 stringreplace, newtext, thetext, mkstud1,mkstud2, All
 sleep 50
-FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD2.ahk
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud2.ahk
 sleep 50
 ;change feedback file name
-fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD2.ahk
+fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud2.ahk
 stringreplace, newtext, thetext, 1.xlsx,2.xlsx,All
 sleep 50
-filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD2.ahk
-FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD2.ahk
+filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud2.ahk
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud2.ahk
 ;create stud4
 fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD124567.ahk
 stringreplace, newtext, thetext, mkstud1,mkstud4, All
 sleep 50
-FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD4.ahk
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud4.ahk
 sleep 50
 ;change feedback file name
-fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD4.ahk
+fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud4.ahk
 stringreplace, newtext, thetext, 1.xlsx,4.xlsx,All
 sleep 50
 filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD4.ahk
-FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD4.ahk
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud4.ahk
 ;create stud5
 fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD124567.ahk
 stringreplace, newtext, thetext, mkstud1,mkstud5, All
 sleep 50
-FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD5.ahk
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud4.ahk
 sleep 50
 ;change feedback file name
-fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD5.ahk
+fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud5.ahk
 stringreplace, newtext, thetext, 1.xlsx,5.xlsx,All
 sleep 50
-filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD5.ahk
-FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD5.ahk
+filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud5.ahk
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud5.ahk
 ;create stud6
 fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD124567.ahk
 stringreplace, newtext, thetext, mkstud1,mkstud6, All
 sleep 50
-FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD6.ahk
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud6.ahk
 sleep 50
 ;change feedback file name
-fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD6.ahk
+fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud6.ahk
 stringreplace, newtext, thetext, 1.xlsx,6.xlsx,All
 sleep 50
-filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD6.ahk
+filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud6.ahk
 sleep 50
-FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD6.ahk
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud6.ahk
 ;create stud7
 fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD124567.ahk
 stringreplace, newtext, thetext, mkstud1,mkstud7, All
 sleep 50
-FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD7.ahk
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud7.ahk
 sleep 50
 ;change feedback file name
-fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD7.ahk
+fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud7.ahk
 stringreplace, newtext, thetext, 1.xlsx,7.xlsx,All
 sleep 50
-filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD7.ahk
-FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD7.ahk
+filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud7.ahk
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud7.ahk
 ;create stud3
 fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD124567.ahk
 stringreplace, newtext, thetext, mkstud1,mkstud3.SCHUECO, All
 sleep 50
-FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD3.ahk
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud3.ahk
 sleep 50
 ;change feedback file name
-fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD3.ahk
+fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud3.ahk
 stringreplace, newtext, thetext, 1.xlsx,3.xlsx,All
 sleep 50
 filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD3.ahk
-FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD3.ahk
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud3.ahk
 ;create stud8
 fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD124567.ahk
 stringreplace, newtext, thetext, mkstud1,mkstud8.SCHUECO, All
 sleep 50
-FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD8.ahk
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud8.ahk
 sleep 50
 ;change feedback file name
-fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD8.ahk
+fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud8.ahk
 stringreplace, newtext, thetext, 1.xlsx,8.xlsx,All
 sleep 50
-filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD8.ahk
-FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD8.ahk
+filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud8.ahk
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud8.ahk
 ;create FRONT
 fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD124567.ahk
 stringreplace, newtext, thetext, mkstud1,Training, All
