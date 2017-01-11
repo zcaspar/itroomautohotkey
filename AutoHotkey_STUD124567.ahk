@@ -45,6 +45,8 @@ FileRecycle, C:\Users\mkstud1\Desktop\*.doc
 Sleep 50
 FileRecycle, C:\Users\mkstud1\Desktop\*.docx
 Sleep 50
+FileRecycle, C:\Users\mkstud1\Desktop\*.rtf
+Sleep 50
 FileRecycle, C:\Users\mkstud1\Desktop\*.dxf
 Sleep 50
 FileRecycle, C:\Users\mkstud1\Desktop\*.pdf
