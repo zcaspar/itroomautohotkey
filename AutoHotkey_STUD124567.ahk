@@ -96,7 +96,7 @@ sleep 50
 fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud4.ahk
 stringreplace, newtext, thetext, 1.xlsx,4.xlsx,All
 sleep 50
-filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD4.ahk
+filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud4.ahk
 FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud4.ahk
 ;create stud5
 fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD124567.ahk
@@ -145,7 +145,7 @@ sleep 50
 fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud3.ahk
 stringreplace, newtext, thetext, 1.xlsx,3.xlsx,All
 sleep 50
-filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD3.ahk
+filedelete, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud3.ahk
 FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud3.ahk
 ;create stud8
 fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD124567.ahk
