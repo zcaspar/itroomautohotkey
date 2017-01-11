@@ -104,7 +104,7 @@ FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud4.ahk
 fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_STUD124567.ahk
 stringreplace, newtext, thetext, mkstud1,mkstud5, All
 sleep 50
-FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud4.ahk
+FileAppend, %newtext%, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud5.ahk
 sleep 50
 ;change feedback file name
 fileread, thetext, E:\Work\SchueCal\itroomautohotkey\AutoHotkey_mkstud5.ahk
